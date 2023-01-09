@@ -1,0 +1,188 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+font-family:'Fuzzy Bubbles',cursive;
+}
+
+
+
+
+
+h2{
+text-align: center;
+}
+a{
+    text-decoration: none;
+}
+
+.header{
+    margin: 50px  65px 20px 65px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.buttons{
+width:max-content;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.buttons button:nth-child(1){
+   
+    padding:5px;
+    border-radius: 0%;
+   color: green;
+    transition: .3s ease;
+}
+
+
+.buttons button:nth-child(2){
+    padding:10px;
+    margin-left: 50px;
+    border-radius: 0%;
+    transition: .3s ease;
+   color:red;
+}
+
+.buttons button:nth-child(1):hover,.buttons button:nth-child(2):hover{
+    box-shadow: 3px 3px 3px black;
+}
+h1{
+    width: 600px;
+}
+.product-home{
+    margin-top: 50px;
+    margin-bottom: 50px;
+     min-height: 55vh;
+}
+
+
+.grid-container{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+   grid-gap:2em;
+   grid-template-columns: repeat(auto-fill ,minmax(290px,.3fr));
+}
+
+.products {
+        background-color: rgb(4, 86, 108);
+        height: 30vh;
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        color: whitesmoke;
+        border-radius: 4px;
+    }
+
+
+
+
+ .empty{
+   
+   text-align: center;
+}
+
+.delete-checkbox{
+    
+position: absolute;
+top: 20px;
+left: 20px;
+z-index: 1;
+opacity: .4;
+border-width: 10px;
+height: 20px;
+width: 20px;
+transition: .3s ease-in;
+}
+
+.delete-checkbox:hover{
+opacity: 1;
+}
+footer {
+    border-top: 3px solid rgb(63, 0, 97);
+    margin: 0;
+    padding: 0px;
+}
+
+
+#product_form{
+    padding:34px;
+    border: #01010300;
+   display: grid;
+ 
+   grid-gap:1rem;
+   color:white;
+   
+background-color: #385569;
+margin-top: 30px;
+max-width: 700px;
+    }
+
+
+.form-control small{
+    color: red;
+    margin-left: 2px;
+    visibility: hidden;
+}
+label{
+   display: inline-block;
+   width: 6rem;
+text-align: center;
+}
+p{
+    margin: 23px;
+}
+
+.form-control input{
+     display: inline-block;
+     padding: .2rem;
+     border-radius: 3px;
+     margin-top: 5px;
+}
+
+.form-control select{
+    display: inline-block;
+   width: max-content;
+   padding: .5rem;
+   border-radius: 3px;
+   cursor: pointer;
+}
+.form-control.success input{
+    border-color: rgb(204, 206, 206);
+}
+
+.form-control.error small{
+    visibility: visible;
+    display: inline-block;
+}
+
+.form-control.error input{
+    border: 3px solid rgba(255, 60, 0, 0.685);
+}
+
+
+.container{
+    margin: 60px;
+  
+}
+
+.header{
+    position: relative;
+   padding-bottom: 30px;
+    border-bottom: 3px solid rgb(2, 44, 88);
+    margin: 0;
+
+}
+
+
+
+ 
